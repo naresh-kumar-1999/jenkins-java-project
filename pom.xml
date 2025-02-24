@@ -49,14 +49,19 @@
 
     <!-- Add maven-compiler-plugin here -->
     <build>
-        <plugins>
-            <plugin>
-               <groupId>org.apache.maven.plugins</groupId>
-               <artifactId>maven-war-plugin</artifactId>
-               <version>3.3.1</version>
-            </plugin>
-        </plugins>
-    </build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <source>1.7</source> <!-- Use 1.7 or later -->
+                <target>1.7</target> <!-- Use 1.7 or later -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
 
 </project>
 
