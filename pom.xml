@@ -51,13 +51,9 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.0</version> <!-- Specify the plugin version -->
-                <configuration>
-                    <source>8</source>  <!-- Set to Java 8 or higher -->
-                    <target>8</target>  <!-- Set to Java 8 or higher -->
-                </configuration>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-war-plugin</artifactId>
+               <version>3.3.1</version>
             </plugin>
         </plugins>
     </build>
