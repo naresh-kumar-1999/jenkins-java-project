@@ -53,7 +53,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version> <!-- Specify the plugin version -->
+                <version>3.14.0</version> <!-- Specify the plugin version -->
                 <configuration>
                     <source>8</source>  <!-- Set to Java 8 or higher -->
                     <target>8</target>  <!-- Set to Java 8 or higher -->
