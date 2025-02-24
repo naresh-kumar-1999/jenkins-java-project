@@ -55,8 +55,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version> <!-- Specify the plugin version -->
                 <configuration>
-                    <source>1.8</source>  <!-- Set to Java 8 or higher -->
-                    <target>1.8</target>  <!-- Set to Java 8 or higher -->
+                    <source>8</source>  <!-- Set to Java 8 or higher -->
+                    <target>8</target>  <!-- Set to Java 8 or higher -->
                 </configuration>
             </plugin>
         </plugins>
